@@ -1,6 +1,6 @@
 :root {
     --color-primary : #2584ff;
-    --color-secondary : #00d0ff;
+    --color-secondary : #00d9ff;
     --color-accent : #ff3400;
     --color-headings : #1b0760;
     --color-body : #918ca4;
@@ -33,7 +33,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 7rem;
+    font-size: 6rem;
 }
 
 h2 {
@@ -241,6 +241,10 @@ a {
 .btn--block {
     width: 100%;
     display: inline-block;
+}
+
+.btn--stretched {
+    padding: 2rem 5rem;
 }
 
 .btn--outline {
@@ -505,6 +509,10 @@ a {
 
 
 @media screen and (min-width : 768px) {
+    .testimonial {
+        padding: 3rem;
+    }
+
     .testimonial .quote {
       align-self: center;
     }
@@ -512,5 +520,46 @@ a {
     .testimonial .quote__text {
         max-width: 50ch;
         line-height: 1.5;
+    }
+}
+
+/* Callouts */
+
+.callout {
+    border-radius: 5px;
+    padding: 3rem;
+    color: #fff;
+}
+
+.callout--primary {
+    background : var(--color-primary);
+}
+
+.callout__content {
+    text-align: center;
+}
+.callout__heading {
+    color: inherit;
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+.callout__text {
+    font-size: 2rem;
+}
+
+@media screen and (min-width : 768px) {
+    .callout__content {
+        text-align: left;
+    }
+
+    .callout .btn {
+        justify-self: center;
+        align-self: center;
+    }
+
+    .callout .grid {
+        grid-template-columns: 1fr auto;
+        column-gap: 1.5rem;
     }
 }
