@@ -2,8 +2,8 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #2584ff;
-        stroke: #2584ff;
+        fill: #fff;
+        stroke: #fff;
       }
 
       .cls-1, .cls-2 {
@@ -14,8 +14,8 @@
       }
 
       .cls-2 {
-        fill: #ff3400;
-        stroke: #ff3400;
+        fill: dodgerblue;
+        stroke: dodgerblue;
         mix-blend-mode: lighten;
       }
 
