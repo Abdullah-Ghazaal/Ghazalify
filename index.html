@@ -38,17 +38,14 @@
       <div class="block__container grid grid--cols-2">
         <div class="hero__content">
           <h1 class="block__heading">Cloud hosting for Pros</h1>
-          <p class="hero__tagline">
-            Deploy your website in less than 60 seconds
-          </p>
+          <p class="hero__tagline">Deploy your website in less than 1 minute</p>
           <a href="#" class="btn btn--accent btn--stretched">Get Started </a>
         </div>
         <picture>
           <source type="image/webp" srcset="images/banner.webp" />
-          <source type="image/png" srcset="images/banner@700.png" />
           <img
             class="hero__image"
-            src="images/banner@700.png"
+            src="images/banner.png"
             alt="image of colored servers"
           />
         </picture>
@@ -262,7 +259,7 @@
         </article>
       </div>
     </section>
-    <section class="block block--dark showcase-block">
+    <section class="block block--dark block--skewed-right showcase-block">
       <div class="block__container">
         <header class="block__header">
           <h2 class="block__heading showcase-block__heading">
@@ -333,6 +330,148 @@
         </div>
       </div>
     </section>
+    <section class="block testimonial-block">
+      <div class="block__container">
+        <header class="block__header">
+          <h2>What Our Customers are Saying</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        </header>
+        <div class="card testimonial">
+          <div class="grid grid--cols-2 testimonial__grid">
+            <div class="testimonial__image">
+              <span
+                class="icon-container icon-container--small testimonial__icon"
+              >
+                <svg class="icon icon--small">
+                  <use xlink:href="images/sprite.svg#quotes"></use>
+                </svg>
+              </span>
+              <picture>
+                <source type="image/webp" srcset="images/testimonial.webp" />
+                <img
+                  src="images/testi.png"
+                  alt="an image of a smiling customer"
+                />
+              </picture>
+            </div>
+            <blockquote class="quote">
+              <p class="quote__text">
+                Ghazalify has been a reliable and responsive cloud hosting
+                provider for our business. Their platform is scalable and
+                secure, and their customer support is top-notch. We highly
+                recommend Ghazalify to anyone looking for a high-quality hosting
+                solution
+              </p>
+              <footer class="quote__footer">
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon icon--primary quote__line">
+                      <use xlink:href="images/sprite.svg#line"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">Abdullah Ghazal</h3>
+                    <p class="media__text quote__company">ABC company</p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="block block--dark footer-block">
+      <div class="block__container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Products</h2>
+            <svg class="icon icon--accent collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <a href="#">
+                <li>Website Hosting</li>
+              </a>
+              <a href="#">
+                <li>Migrations</li>
+              </a>
+              <a href="#">
+                <li>Free Automated Wordpress</li>
+              </a>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Company</h2>
+            <svg class="icon icon--accent collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <a href="#">
+                <li>About</li>
+              </a>
+              <a href="#">
+                <li>Affiliates</li>
+              </a>
+              <a href="#">
+                <li>Blog</li>
+              </a>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Support</h2>
+            <svg class="icon icon--accent collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <a href="#">
+                <li>Contact</li>
+              </a>
+              <a href="#">
+                <li>Knowledge Base</li>
+              </a>
+              <a href="#">
+                <li>FAQ</li>
+              </a>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Domains</h2>
+            <svg class="icon icon--accent collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <a href="#">
+                <li>Domain Checker</li>
+              </a>
+              <a href="#">
+                <li>Domain Transfare</li>
+              </a>
+              <a href="#">
+                <li>Free Domain</li>
+              </a>
+            </ul>
+          </div>
+        </section>
+        <div class="footer__logo">
+          <img src="images/logo.svg" alt="" />
+          <p class="copyright">&copy; Abdullah Ghazal 2023</p>
+        </div>
+      </div>
+    </footer>
     <script src="js/main.js"></script>
   </body>
 </html>
