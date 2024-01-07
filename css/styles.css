@@ -623,6 +623,11 @@ a {
     }
 }
 
+.callout-bottom {
+    transform: translateY(3rem);
+}
+
+
 /* Collapsibles */
 
 .collapsible__header {
@@ -946,6 +951,10 @@ a {
 
 .footer__logo {
     text-align: center;
+}
+
+.footer__logo img {
+    transform: translateX(-10px);
 }
 
 .footer__section {
