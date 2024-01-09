@@ -493,7 +493,8 @@ a {
 .quote__company {
     font-size: 1.5rem;
     font-style: normal;
-    opacity: 45%;
+    opacity: 0.6;
+    color: #666;
 }
 
 .quote__line {
