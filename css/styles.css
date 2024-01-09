@@ -8,7 +8,7 @@
     --color-border : #ccc;
     --color-white : #fff;
     --border-radius : 30px;
-    color-scheme: only light;
+    color-scheme: light;
 }
 
 *, *::before, *::after {
@@ -682,6 +682,10 @@ a {
 .block--dark {
     background: #000;
     color: #7b858b;
+}
+
+.block--white {
+    background: #fff;
 }
 
 .block--dark h1, 
