@@ -729,13 +729,13 @@ a {
     transform: translateY(4px) translateX(-22px);
 }
 
-.nav__list >  a {
+.nav__list a {
     color: #d2d0db;
     transition: color .2s;
 }
 
-.nav__list > a:hover, 
-.nav__list > a:focus {
+.nav__list  a:hover, 
+.nav__list  a:focus {
     color: var(--color-secondary);
 }
 

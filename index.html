@@ -3,7 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Ghazalify - Go online for $7</title>
+    <meta
+      name="description"
+      content="Ghazalify is your online cloud hosting haven, where your code dances to the rhythm of innovation and performance. We're not just about servers and storage; we're about crafting the perfect harmony for your digital creations."
+    />
+    <!-- TODO: add the image and url for the og: twitter: -->
+    <meta property="og:title" content="Ghazalify" />
+    <meta
+      property="og:description"
+      content="We're not just about servers and storage; we're about crafting the perfect harmony for your digital creations"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:title" content="Ghazalify" />
+    <meta
+      name="twitter:description"
+      content="We're not just about servers and storage; we're about crafting the perfect harmony for your digital creations"
+    />
+    <meta name="twitter:type" content="website" />
+    <link rel="icon" href="images/tab-logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,10 +46,10 @@
             <use xlink:href="images/sprite.svg#menu"></use>
           </svg>
           <ul class="list nav__list collapsible__content">
-            <a href="/"><li class="nav__item">Hosting</li></a>
-            <a href="/"><li class="nav__item">Domain</li></a>
-            <a href="/"><li class="nav__item">VPS</li></a>
-            <a href="/"><li class="nav__item">Pricing</li></a>
+            <li class="nav__item"><a href="#plans">Pricing</a></li>
+            <li class="nav__item"><a href="#features">Features</a></li>
+            <li class="nav__item"><a href="#testimonials">Testimonials</a></li>
+            <li class="nav__item"><a href="#support">Support</a></li>
           </ul>
         </nav>
       </div>
@@ -39,7 +57,9 @@
     <section class="block block--dark block--skewed-left hero">
       <div class="block__container grid grid--cols-2">
         <div class="hero__content" data-aos="fade-right">
-          <h1 class="block__heading">Cloud hosting for Pros</h1>
+          <h1 class="block__heading">
+            <strong>Cloud hosting</strong> for Pros
+          </h1>
           <p class="hero__tagline">Deploy your website in less than 1 minute</p>
           <a href="#" class="btn btn--accent btn--stretched">Get Started </a>
         </div>
@@ -85,13 +105,13 @@
         </ul>
       </div>
     </section>
-    <section class="block plans-block">
+    <section class="block plans-block" id="plans">
       <div class="block__container grid grid--cols-3" data-aos="zoom-in-up">
         <div class="plan">
           <div class="card card--secondary">
             <header class="card__header">
               <h3 class="plan__name">Entry</h3>
-              <span class="plan__price">$14</span>
+              <span class="plan__price">$7</span>
               <span class="plan__billing-cycle">/month</span>
               <span class="badge badge--secondary badge--small">10% Off</span>
               <div class="plan__description">Easy start on the cloud</div>
@@ -104,7 +124,7 @@
                 <li class="list__item list__item--unavaliable">
                   Unlimited Bandwidth
                 </li>
-                <li class="list__item">100 GB SSD Storage</li>
+                <li class="list__item">75 GB SSD Storage</li>
                 <li class="list__item">3 GB RAM</li>
               </ul>
               <div class="btn btn--outline btn--block">Buy Now</div>
@@ -115,8 +135,8 @@
         <div class="plan plan--popular">
           <div class="card card--primary">
             <header class="card__header">
-              <h3 class="plan__name">Entry</h3>
-              <span class="plan__price">$14</span>
+              <h3 class="plan__name">premium</h3>
+              <span class="plan__price">$12</span>
               <span class="plan__billing-cycle">/month</span>
               <span class="badge badge--primary badge--small">10% Off</span>
               <div class="plan__description">Easy start on the cloud</div>
@@ -124,9 +144,11 @@
             <div class="card__body">
               <ul class="list list--tick">
                 <li class="list__item">Unlimited Websites</li>
-                <li class="list__item">Unlimited Bandwidth</li>
-                <li class="list__item">100 GB SSD Storage</li>
-                <li class="list__item">3 GB RAM</li>
+                <li class="list__item list__item--unavaliable">
+                  Unlimited Bandwidth
+                </li>
+                <li class="list__item">150 GB SSD Storage</li>
+                <li class="list__item">5 GB RAM</li>
               </ul>
               <div class="btn btn--outline btn--block">Buy Now</div>
             </div>
@@ -135,8 +157,8 @@
         <div class="plan">
           <div class="card card--accent">
             <header class="card__header">
-              <h3 class="plan__name">Entry</h3>
-              <span class="plan__price">$14</span>
+              <h3 class="plan__name">premium+</h3>
+              <span class="plan__price">$15</span>
               <span class="plan__billing-cycle">/month</span>
               <span class="badge badge--accent badge--small">10% Off</span>
               <div class="plan__description">Easy start on the cloud</div>
@@ -145,8 +167,8 @@
               <ul class="list list--tick">
                 <li class="list__item">Unlimited Websites</li>
                 <li class="list__item">Unlimited Bandwidth</li>
-                <li class="list__item">100 GB SSD Storage</li>
-                <li class="list__item">3 GB RAM</li>
+                <li class="list__item">250 GB SSD Storage</li>
+                <li class="list__item">10 GB RAM</li>
               </ul>
               <div class="btn btn--outline btn--block">Buy Now</div>
             </div>
@@ -154,7 +176,7 @@
         </div>
       </div>
     </section>
-    <section class="block features-block">
+    <section class="block features-block" id="features">
       <div class="block__container">
         <header class="block__header" data-aos="fade-up">
           <h2 class="block__heading">Host on the Cloud to Keep Growing</h2>
@@ -173,7 +195,7 @@
                   </svg>
                 </span>
               </div>
-              <h3 class="feature__heading">Simply Fast Websites</h3>
+              <h3 class="feature__heading">Super Easy Usage</h3>
               <p class="feature__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Repellat voluptatum ut autem unde id blanditiis ipsam cum
@@ -332,7 +354,7 @@
         </div>
       </div>
     </section>
-    <section class="block testimonial-block">
+    <section class="block testimonial-block" id="testimonials">
       <div class="block__container">
         <header class="block__header" data-aos="fade-up">
           <h2>What Our Customers are Saying</h2>
@@ -400,86 +422,62 @@
     <footer class="block block--dark footer-block">
       <div class="block__container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Products</h2>
             <svg class="icon icon--accent collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
-              <a href="#">
-                <li>Website Hosting</li>
-              </a>
-              <a href="#">
-                <li>Migrations</li>
-              </a>
-              <a href="#">
-                <li>Free Automated Wordpress</li>
-              </a>
+              <li><a href="/">Website Hosting</a></li>
+              <li><a href="/">Migrations</a></li>
+              <li><a href="/">Free Automated Wordpress</a></li>
             </ul>
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Company</h2>
             <svg class="icon icon--accent collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
-              <a href="#">
-                <li>About</li>
-              </a>
-              <a href="#">
-                <li>Affiliates</li>
-              </a>
-              <a href="#">
-                <li>Blog</li>
-              </a>
+              <li><a href="/">About</a></li>
+              <li><a href="/">Affiliates</a></li>
+              <li><a href="/">Blog</a></li>
             </ul>
           </div>
         </section>
-        <section class="collapsible footer__section">
-          <header class="collapsible__header">
+        <section class="collapsible footer__section" id="support">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Support</h2>
             <svg class="icon icon--accent collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
-              <a href="#">
-                <li>Contact</li>
-              </a>
-              <a href="#">
-                <li>Knowledge Base</li>
-              </a>
-              <a href="#">
-                <li>FAQ</li>
-              </a>
+              <li><a href="/">Contact</a></li>
+              <li><a href="/">Knowledge Base</a></li>
+              <li><a href="/">FAQ</a></li>
             </ul>
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Domains</h2>
             <svg class="icon icon--accent collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
-              <a href="#">
-                <li>Domain Checker</li>
-              </a>
-              <a href="#">
-                <li>Domain Transfare</li>
-              </a>
-              <a href="#">
-                <li>Free Domain</li>
-              </a>
+              <li><a href="/">Domain Checker</a></li>
+              <li><a href="/">Domain Transfare</a></li>
+              <li><a href="/">Free Domain</a></li>
             </ul>
           </div>
         </section>
